@@ -6,7 +6,7 @@
 from tabulate import tabulate
 import pandas as pd
 
-housing_data = pd.read_csv("./datasets/melb_data.csv")
+housing_data = pd.read_csv("datasets/melb_data.csv")
 
 # tabulate is used to print the output in table format
 # print(tabulate(housing_data.describe(), headers='keys', tablefmt='psql'))
